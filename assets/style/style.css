@@ -1,0 +1,67 @@
+.main-logo {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.mycolor {
+    color:rgb(53, 53, 53);
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.accordion-button:not(.collapsed){
+    color: black;
+    box-shadow: 0 0 1px 0.25rem rgb(0 0 0 / 25%);
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+    transition: ease 300ms;
+}
+
+.img-fluid{
+    transition: ease 300ms;
+}
+/* Boutons */
+.knowMore {
+    margin: 20px;
+}
+
+.buyNow {
+    
+    margin-top: 30px;
+}
+
+.picBass {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+.modal-dialog{
+    margin-top: 200px;
+}
+
+@media (min-width: 1280px) {
+    .descAmpli > p{
+        font-size: 1.3rem;
+        padding-right: 20px;
+    }
+}
+
+.accessoires{
+    min-height: 200px;
+    color: rgb(160, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
